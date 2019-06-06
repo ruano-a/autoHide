@@ -2,10 +2,13 @@
 A plugin to automatically hide an element, and show it back when moving the cursor.
 
 # basic usage
+~~~~
 $('#selector').autoHide();
+~~~~
 
 #The options
 
+~~~~
 var defaults =  {
         elem_move_duration:       300,
         delay_before_hide_elem:   1000,
@@ -15,10 +18,12 @@ var defaults =  {
         before_show:              function() {return true;},
         after_show:               function() {return true;}
     };
+~~~~
 
 Example : 
-
+~~~~
 $('#selector').autoHide({delay_before_hide_elem: 1500});
+~~~~
 
 # Requirements
 Jquery (tested with the 1.12.4 version minimum)
