@@ -1,0 +1,22 @@
+{
+  "name": "autoHide",
+  "main": "autoHide.js",
+  "homepage": "https://github.com/ruano-a/autoHide",
+  "authors": [
+    "ruano-a"
+  ],
+  "description": "A plugin to automatically hide an element, and show it back when moving the cursor.",
+  "keywords": [
+    "jquery",
+    "hide",
+    "animation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
