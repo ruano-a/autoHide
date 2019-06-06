@@ -1,12 +1,12 @@
 # autoHide
 A plugin to automatically hide an element, and show it back when moving the cursor.
 
-# basic usage
+# Basic usage
 ~~~~
 $('#selector').autoHide();
 ~~~~
 
-#The options
+# The options
 
 ~~~~
 var defaults =  {
